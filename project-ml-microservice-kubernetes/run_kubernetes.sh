@@ -9,6 +9,7 @@ dockerpath=sritchie1305/project4
 # Step 2
 # Run the Docker Hub container with kubernetes
 kubectl run project4\
+    --generator=run-pod/v1\
     --image=$dockerpath\
     --port=80 --labels app=project4
 
