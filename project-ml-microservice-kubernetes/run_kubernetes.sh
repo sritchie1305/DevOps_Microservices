@@ -16,6 +16,7 @@ kubectl run project4\
 
 # Step 3:
 # List kubernetes pods
+sleep 120s
 kubectl get pods
 
 # Step 4:
