@@ -25,14 +25,14 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Files in this Repo
 
-* 'Dockerfile': The instructions to build the docker image
-* 'Makefile': Used by the 'make' utility to automate tasks
-* 'app.py': The application being containerised
-* 'requirments.txt': Used to list the dependencies when using 'make install'
-* 'make_prediction': A shell script that posts a prediction
-* 'run_docker.sh': A shell script to build and run the docker image locally
-* 'run_kubernetes.sh': A shell script to deploy with kubernetes
-* 'upload_docker.sh': Pushs the image to the remote repo
+* `Dockerfile`: The instructions to build the docker image
+* `Makefile`: Used by the `make` utility to automate tasks
+* `app.py`: The application being containerised
+* `requirments.txt`: Used to list the dependencies when using `make install`
+* `make_prediction`: A shell script that posts a prediction
+* `run_docker.sh`: A shell script to build and run the docker image locally
+* `run_kubernetes.sh`: A shell script to deploy with kubernetes
+* `upload_docker.sh`: Pushs the image to the remote repo
 
 ## Setup the Environment
 
